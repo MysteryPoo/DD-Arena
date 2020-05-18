@@ -6,3 +6,10 @@ if(mButtonDemo != noone && mButtonDemo.mIsReleased)
 	mButtonDemo.mIsFading = true;
 	room_goto(rmDemonstration);
 }
+
+if(noone != mButtonOnline && mButtonOnline.mIsReleased)
+{
+	mButtonOnline.mIsReleased = false;
+	mButtonOnline.mIsFading = true;
+	room_goto(rmOnline);
+}

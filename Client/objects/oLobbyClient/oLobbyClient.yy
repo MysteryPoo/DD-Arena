@@ -126,7 +126,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "\"0\"",
+            "value": "0",
             "varName": "mId",
             "varType": 2
         },
@@ -140,7 +140,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "\"abcdefg\"",
+            "value": "abcdefg",
             "varName": "mPassword",
             "varType": 2
         },
@@ -154,7 +154,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "\"0\"",
+            "value": "0",
             "varName": "mDeviceUUID",
             "varType": 2
         },
@@ -168,7 +168,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "\"UNKNOWN\"",
+            "value": "UNKNOWN",
             "varName": "mUsername",
             "varType": 2
         },
@@ -182,7 +182,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "\"NEVER\"",
+            "value": "NEVER",
             "varName": "mLastLogin",
             "varType": 2
         },
@@ -322,7 +322,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "\"71.47.179.0\"",
+            "value": "71.47.179.0",
             "varName": "mServerIP",
             "varType": 2
         },

@@ -6,3 +6,13 @@ mControllers = [
 
 mControllers[0].image_blend = c_red;
 mControllers[1].image_blend = c_blue;
+
+alarm[0] = 5; // Start processing input
+
+// TESTING
+mIsLeft = false;
+mIsRight = false;
+mIsUp = false;
+mIsDown = false;
+mIsPrimaryAction = false;
+mIsSecondaryAction = false;
