@@ -8,9 +8,10 @@ if (noone != mController && instance_exists(mController))
 	{
 		mBomb.x = x;
 		mBomb.y = y;
+		mBomb.mAltitude = 32;
 		if (!mController.mIsPrimaryAction)
 		{
-			var distance = min(point_distance(x, y, mController.mPointerX, mController.mPointerY), 512);
+			var distance = min(point_distance(x, y, mController.mPointerX, mController.mPointerY), mThrowRange);
 			var angle = point_direction(x, y, mController.mPointerX, mController.mPointerY);
 			var _x = x + lengthdir_x(distance, angle);
 			var _y = y + lengthdir_y(distance, angle);
@@ -18,6 +19,7 @@ if (noone != mController && instance_exists(mController))
 			mBomb.mTargetY = _y;
 			mBomb.direction = point_direction(x, y, mBomb.mTargetX, mBomb.mTargetY);
 			mBomb.speed = 5;
+			mBomb.mAltitude = 32;
 			mBomb.mMovementTimer = round(point_distance(x, y, mBomb.mTargetX, mBomb.mTargetY) / mBomb.speed);
 			mBomb = noone;
 		}
@@ -27,7 +29,6 @@ if (noone != mController && instance_exists(mController))
 		if (mController.mIsPrimaryAction)
 		{
 			mBomb = instance_create_layer(x, y, "Instances", oBomb);
-			
 		}
 		else
 		{

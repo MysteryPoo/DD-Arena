@@ -54,9 +54,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "\"Item 0\"",
+            "value": "-1",
             "varName": "mControllers",
-            "varType": 6
+            "varType": 1
         }
     ],
     "solid": false,

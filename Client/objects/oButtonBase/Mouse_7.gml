@@ -1,0 +1,5 @@
+
+if(mIsPressed)
+{
+	mIsReleased = true;
+}

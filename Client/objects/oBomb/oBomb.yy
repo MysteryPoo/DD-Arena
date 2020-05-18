@@ -111,6 +111,20 @@
             "value": "-1",
             "varName": "mMovementTimer",
             "varType": 1
+        },
+        {
+            "id": "6774d2b1-fb4e-4cc2-a28e-e6e025dd57b3",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "mAltitude",
+            "varType": 0
         }
     ],
     "solid": false,

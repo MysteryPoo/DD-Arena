@@ -107,6 +107,20 @@
             "value": "True",
             "varName": "mCanDeflect",
             "varType": 3
+        },
+        {
+            "id": "f9320e0a-10fd-4f59-9c90-291d7b73c77b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "256",
+            "varName": "mThrowRange",
+            "varType": 1
         }
     ],
     "solid": false,
