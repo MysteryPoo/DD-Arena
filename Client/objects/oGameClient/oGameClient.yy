@@ -120,7 +120,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "dda.dragonringstudio.com",
+            "value": "localhost",
             "varName": "mServerIP",
             "varType": 2
         },

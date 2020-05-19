@@ -17,6 +17,9 @@ switch(argument0)
 	case CLIENT_MESSAGE_ID.CONTROLLER:
 		Client_HandleController(argument2);
 		break;
+	case CLIENT_MESSAGE_ID.SYNCPOSITION:
+		Client_HandleSyncPosition(argument2);
+		break;
 	/*case PACKET.PLAYERDATA:
 		show_debug_message("Client: Got some player data!");
 		var _numPlayers = buffer_read(argument2, buffer_u8);
