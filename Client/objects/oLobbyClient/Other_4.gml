@@ -1,5 +1,4 @@
 /// @description oLobbyClient->RoomStart
-
 if(mIsAuth)
 {
 	if(room == rmSplash)

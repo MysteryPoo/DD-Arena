@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "3ca0e7a7-b29e-41e2-91e3-a2e2edc52a21",
+            "Value": {
+                "id": "605b4153-5ec0-4e38-b643-5b08c2078e8f",
+                "resourcePath": "objects\\oBombPileSpawner\\oBombPileSpawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3d5c7527-f65b-4714-8f27-2751e6d3d1f0",
             "Value": {
                 "id": "60b270b5-ae5f-4339-ac05-e1212ba522cd",
@@ -403,6 +411,14 @@
             "Value": {
                 "id": "9fa4ba36-2452-414b-98b4-407b8e14f5c1",
                 "resourcePath": "objects\\oButtonBase\\oButtonBase.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "841fdfcf-f64a-4c23-8f9c-5a3e9e9204ba",
+            "Value": {
+                "id": "d3d0e795-560d-41d7-9748-314bfca480e5",
+                "resourcePath": "objects\\oBombPile\\oBombPile.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -660,6 +676,14 @@
                 "id": "87c5f606-a275-4016-ba16-476d121085a0",
                 "resourcePath": "views\\d116146e-d0c9-4200-a759-4438b4ad4b11.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d6142483-3020-4239-95e8-82efd66a86ce",
+            "Value": {
+                "id": "dc7efec4-8726-4b77-920c-6d1b40130d47",
+                "resourcePath": "objects\\oBombPickup\\oBombPickup.yy",
+                "resourceType": "GMObject"
             }
         },
         {

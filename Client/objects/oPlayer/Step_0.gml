@@ -26,9 +26,12 @@ if (noone != mController && instance_exists(mController))
 	}
 	else
 	{
-		if (mController.mIsPrimaryAction)
+		if (mCanThrow && mBombCount > 0 && mController.mIsPrimaryAction)
 		{
 			mBomb = instance_create_layer(x, y, "Instances", oBomb);
+			mCanThrow = false;
+			alarm[1] = mCanThrowCooldown * room_speed;
+			mBombCount -= 1;
 		}
 		else
 		{
@@ -45,7 +48,7 @@ if (noone != mController && instance_exists(mController))
 			otherBomb.speed = 3;
 			otherBomb.mMovementTimer = room_speed * 0.5;
 			mCanDeflect = false;
-			alarm[0] = room_speed;
+			alarm[0] = mDeflectCooldown * room_speed;
 		}
 	}
 	
@@ -61,4 +64,14 @@ if (noone != mController && instance_exists(mController))
 	speed = moving ? 5 : 0;
 	
 	mIsMoving = moving;
+}
+
+var _bombPile = instance_nearest(x, y, oBombPile);
+if (noone != _bombPile)
+{
+	var _distance = point_distance(x, y, _bombPile.x, _bombPile.y);
+	if (_distance < 128 && _bombPile.mOwner == noone)
+	{
+		_bombPile.mOwner = id;
+	}
 }

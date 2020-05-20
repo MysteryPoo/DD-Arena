@@ -33,6 +33,16 @@
             "enumb": 0,
             "eventtype": 2,
             "m_owner": "6f475977-3851-4443-b03a-9631528b6e22"
+        },
+        {
+            "id": "b47b6f99-4088-4b05-afc8-0387fdedf5aa",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 2,
+            "m_owner": "6f475977-3851-4443-b03a-9631528b6e22"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -109,6 +119,20 @@
             "varType": 3
         },
         {
+            "id": "a59303fa-6882-49f1-a26c-dc5c31865e59",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": true,
+            "rangeMax": 3,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "3",
+            "varName": "mDeflectCooldown",
+            "varType": 0
+        },
+        {
             "id": "f9320e0a-10fd-4f59-9c90-291d7b73c77b",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -120,6 +144,48 @@
             "resourceFilter": 1023,
             "value": "256",
             "varName": "mThrowRange",
+            "varType": 1
+        },
+        {
+            "id": "89d35eed-7ce0-4e22-94cf-dc91e771ce77",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "mCanThrow",
+            "varType": 3
+        },
+        {
+            "id": "b16d6fa6-b740-4f2a-85df-cec23fb7ec86",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": true,
+            "rangeMax": 3,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "mCanThrowCooldown",
+            "varType": 0
+        },
+        {
+            "id": "8b68b5cb-62b9-4701-9c32-f3b0933064fb",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": true,
+            "rangeMax": 5,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "mBombCount",
             "varType": 1
         }
     ],
