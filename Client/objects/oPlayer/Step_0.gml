@@ -1,8 +1,11 @@
 /// @description React to Controller
 if (noone != mController && instance_exists(mController))
 {
-	var facingDir = point_direction(x, y, mController.mPointerX, mController.mPointerY);
-	image_angle = facingDir;
+	//var facingDir = point_direction(x, y, mController.mPointerX, mController.mPointerY);
+	//image_angle = facingDir;
+	
+	mController.x = x;
+	mController.y = y;
 	
 	if (noone != mBomb && instance_exists(mBomb))
 	{
@@ -28,7 +31,7 @@ if (noone != mController && instance_exists(mController))
 	{
 		if (mCanThrow && mBombCount > 0 && mController.mIsPrimaryAction)
 		{
-			mBomb = instance_create_layer(x, y, "Instances", oBomb);
+			mBomb = instance_create_layer(x, y, "Instances", mBombType);
 			mCanThrow = false;
 			alarm[1] = mCanThrowCooldown * room_speed;
 			mBombCount -= 1;
@@ -45,7 +48,7 @@ if (noone != mController && instance_exists(mController))
 		if (noone != otherBomb)
 		{
 			otherBomb.direction = image_angle;
-			otherBomb.speed = 3;
+			otherBomb.speed = 7;
 			otherBomb.mMovementTimer = room_speed * 0.5;
 			mCanDeflect = false;
 			alarm[0] = mDeflectCooldown * room_speed;

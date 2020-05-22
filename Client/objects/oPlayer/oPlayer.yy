@@ -187,6 +187,23 @@
             "value": "1",
             "varName": "mBombCount",
             "varType": 1
+        },
+        {
+            "id": "395a7f16-5f1d-4274-8894-91d16b79aa04",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": [
+                "oBomb",
+                "oRadialBomb"
+            ],
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "oRadialBomb",
+            "varName": "mBombType",
+            "varType": 6
         }
     ],
     "solid": false,
