@@ -8,10 +8,8 @@ var _y = _response[?"y"];
 
 with(_objectId)
 {
-	var _newX = (x + _x) * 0.5;
-	var _newY = (y + _y) * 0.5;
-	x = _newX;
-	y = _newY;
+	x = _x;
+	y = _y;
 }
 
 ds_map_destroy(_response);
