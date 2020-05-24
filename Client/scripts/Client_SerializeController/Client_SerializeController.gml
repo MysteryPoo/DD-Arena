@@ -1,12 +1,14 @@
 /// @description Client_SerializeController
 /// @arg0 paramsMap
 
-var _packetSize = 10;
+var _packetSize = 11;
 var _request = buffer_create(_packetSize, buffer_fixed, 1);
 buffer_seek(_request, buffer_seek_start, 0);
 
-buffer_write(_request, buffer_u8, CLIENT_MESSAGE_ID.CONTROLLER);
+buffer_write(_request, buffer_u8, CLIENT_MESSAGE_ID.CONTROLLERDATA);
 buffer_write(_request, buffer_u32, _packetSize);
+
+buffer_write(_request, buffer_u8, argument0[?"key"]);
 
 var _flags = 0;
 _flags |= argument0[?"isLeft"] ? 0x80 : 0x00;

@@ -1,28 +1,28 @@
 {
-    "id": "bb0d4867-c828-4127-8ea1-8e1a37faf505",
+    "id": "ddb025be-64ea-4241-b44c-1ac4ba469d5c",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oControllerMgr",
+    "name": "oPlayerDataMgr",
     "eventList": [
         {
-            "id": "f80c5772-209f-40a2-83e2-a1a2d974605f",
+            "id": "8e22ece3-4e07-4d88-8deb-44b3121ffb23",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "bb0d4867-c828-4127-8ea1-8e1a37faf505"
+            "m_owner": "ddb025be-64ea-4241-b44c-1ac4ba469d5c"
         },
         {
-            "id": "d1380428-8cd6-4e08-80ab-92ade0781617",
+            "id": "7b9b4293-a15e-40d1-8ca6-738b02a916d2",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 1,
-            "m_owner": "bb0d4867-c828-4127-8ea1-8e1a37faf505"
+            "m_owner": "ddb025be-64ea-4241-b44c-1ac4ba469d5c"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -41,9 +41,7 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": [
-        
-    ],
+    "properties": null,
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": false

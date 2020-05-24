@@ -3,7 +3,7 @@
 
 var response = ds_map_create();
 
-response[?"index"] = buffer_read(argument0, buffer_u8);
+response[?"key"] = buffer_read(argument0, buffer_u8);
 
 var _flags = buffer_read(argument0, buffer_u8);
 response[?"isLeft"] = _flags & 0x80 ? true : false;

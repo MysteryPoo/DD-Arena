@@ -63,16 +63,6 @@
             "enumb": 3,
             "eventtype": 2,
             "m_owner": "f895b9d6-d441-4eca-856e-5b5b77ef5cf3"
-        },
-        {
-            "id": "46f53413-2334-4581-8110-cf4ebc418beb",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 1,
-            "eventtype": 3,
-            "m_owner": "f895b9d6-d441-4eca-856e-5b5b77ef5cf3"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -130,7 +120,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "dda.dragonringstudio.com",
+            "value": "localhost",
             "varName": "mServerIP",
             "varType": 2
         },
@@ -172,9 +162,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "-1",
-            "varName": "mIndexOnServer",
-            "varType": 1
+            "value": "\"\"",
+            "varName": "mControllerKey",
+            "varType": 2
         },
         {
             "id": "8bac725f-0a74-4aa1-a1ea-62d5b26549bf",
@@ -217,6 +207,20 @@
             "value": "999",
             "varName": "mLastPing",
             "varType": 1
+        },
+        {
+            "id": "83355540-8565-4342-91d0-94ae666de9ed",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "mIsHost",
+            "varType": 3
         }
     ],
     "solid": false,

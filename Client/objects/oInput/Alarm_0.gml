@@ -1,28 +1,13 @@
 /// @description Send Input
-// TODO : Input shouldn't be processed on this object
-alarm[0] = 1;
+alarm[0] = mRate;
 
-if (rmDemonstration == room)
-{
-	with (mControllers[0])
-	{
-		mIsPrimaryAction = mouse_check_button(mb_left);
-		mIsSecondaryAction = mouse_check_button(mb_right);
-		mIsUp = keyboard_check(ord("W"));
-		mIsDown = keyboard_check(ord("S"));
-		mIsLeft = keyboard_check(ord("A"));
-		mIsRight = keyboard_check(ord("D"));
-		mPointerX = mouse_x;
-		mPointerY = mouse_y;
-	}
-}
-
-if (rmOnline == room)
+if (rmOnline == room && mControllerKey >= 0)
 {
 	with(oGameClient)
 	{
 		var _controller = ds_map_create();
 	
+		_controller[?"key"] = other.mControllerKey;
 		_controller[?"isPrimaryAction"] = mouse_check_button(mb_left);
 		_controller[?"isSecondaryAction"] = mouse_check_button(mb_right);
 		_controller[?"isUp"] = keyboard_check(ord("W"));

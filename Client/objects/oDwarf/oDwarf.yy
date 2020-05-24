@@ -2,7 +2,7 @@
     "id": "6f475977-3851-4443-b03a-9631528b6e22",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oPlayer",
+    "name": "oDwarf",
     "eventList": [
         {
             "id": "01b600b7-bf7d-4a80-bfca-f7dc8794c42b",
@@ -47,7 +47,7 @@
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "4e057523-ab34-46c1-bca9-69f4141348db",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

@@ -1,2 +1,4 @@
 /// @description Setup Alarm
-alarm[0] = room_speed * 0.5;
+alarm[0] = room_speed * mSyncRateInSeconds;
+
+mSyncMap = ds_map_create();

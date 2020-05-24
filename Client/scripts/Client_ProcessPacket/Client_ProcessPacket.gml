@@ -8,14 +8,17 @@ switch(argument0)
 	case CLIENT_MESSAGE_ID.CHALLENGE:
 		Client_HandleChallenge();
 		break;
+	case CLIENT_MESSAGE_ID.CONTROLLERDATA:
+		Client_HandleController(argument2);
+		break;
 	case CLIENT_MESSAGE_ID.HANDSHAKE:
 		Client_HandleHandshake(argument2);
 		break;
 	case CLIENT_MESSAGE_ID.PING:
 		Client_HandlePing(argument2);
 		break;
-	case CLIENT_MESSAGE_ID.CONTROLLER:
-		Client_HandleController(argument2);
+	case CLIENT_MESSAGE_ID.PLAYERDATA:
+		Client_HandlePlayerData(argument2);
 		break;
 	case CLIENT_MESSAGE_ID.SYNCPOSITION:
 		Client_HandleSyncPosition(argument2);

@@ -1,12 +1,15 @@
 /// @description Sync Positions
-alarm[0] = room_speed * 0.5;
+alarm[0] = room_speed * mSyncRateInSeconds;
 
-with(oPlayer) // TODO : Consider making a parent "Syncable" object that other objects can inherit
-{
+if (!instance_exists(oGameClient) /*|| !oGameClient.mIsHost*/) exit;
+
+for (var key = ds_map_find_first(mSyncMap); key != undefined; key = ds_map_find_next(mSyncMap, key)) {
+	var _instance = mSyncMap[?key];
+	
 	var _request = ds_map_create();
-	_request[?"instanceId"] = id;
-	_request[?"x"] = x;
-	_request[?"y"] = y;
+	_request[?"key"] = key;
+	_request[?"x"] = _instance.x;
+	_request[?"y"] = _instance.y;
 	
 	var _buffer = Client_SerializeSyncPosition(_request);
 	with(oGameClient)

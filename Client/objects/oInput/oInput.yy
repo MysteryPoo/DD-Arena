@@ -1,38 +1,28 @@
 {
-    "id": "4b3c9a85-b9d7-4bd0-b942-fa3b83865c19",
+    "id": "b113fad2-c072-4a1d-b048-b497b99205d2",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oNetworkSyncMgr",
+    "name": "oInput",
     "eventList": [
         {
-            "id": "efae3a86-7c1c-438f-9989-ef19a3eedbfc",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "4b3c9a85-b9d7-4bd0-b942-fa3b83865c19"
-        },
-        {
-            "id": "e4b85fa1-fd98-4398-a122-77e8ce494641",
+            "id": "d2820cfe-7e9a-4fd7-8edb-8ddb17f63094",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 2,
-            "m_owner": "4b3c9a85-b9d7-4bd0-b942-fa3b83865c19"
+            "m_owner": "b113fad2-c072-4a1d-b048-b497b99205d2"
         },
         {
-            "id": "f7002dd0-2b6e-4445-a0e3-1e0a8d4395ce",
+            "id": "91cf516d-351c-4b93-988c-bdf7648d11ca",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 1,
-            "m_owner": "4b3c9a85-b9d7-4bd0-b942-fa3b83865c19"
+            "eventtype": 0,
+            "m_owner": "b113fad2-c072-4a1d-b048-b497b99205d2"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -53,18 +43,32 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "5f80ad4d-c0b7-4b81-96bd-a4718c5cb81a",
+            "id": "1234608a-9817-4609-b036-dfbf74ccbada",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "-1",
+            "varName": "mControllerKey",
+            "varType": 1
+        },
+        {
+            "id": "3452b35c-1209-409c-849f-d55028c4d367",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
             "multiselect": false,
             "rangeEnabled": true,
-            "rangeMax": 1,
-            "rangeMin": 0,
+            "rangeMax": 30,
+            "rangeMin": 1,
             "resourceFilter": 1023,
-            "value": "0.5",
-            "varName": "mSyncRateInSeconds",
-            "varType": 0
+            "value": "3",
+            "varName": "mRate",
+            "varType": 1
         }
     ],
     "solid": false,

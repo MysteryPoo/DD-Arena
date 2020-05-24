@@ -2,12 +2,11 @@
 /// @arg0 data
 var _response = Client_DeserializeSyncPosition(argument0);
 
-var _objectId = _response[?"instanceId"];
+var _key = _response[?"key"];
 var _x = _response[?"x"];
 var _y = _response[?"y"];
 
-with(_objectId)
-{
+with (oNetworkSyncMgr.mSyncMap[?_key]) {
 	x = _x;
 	y = _y;
 }
