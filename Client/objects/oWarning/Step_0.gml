@@ -63,6 +63,9 @@ switch(mState)
 		else
 		{
 			instance_destroy();
+			if (noone != mNavId && room_exists(mNavId) && room != mNavId) {
+				room_goto(mNavId);
+			}
 		}
 		break;
 }

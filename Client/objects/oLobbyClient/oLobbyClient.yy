@@ -322,7 +322,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "71.47.179.0",
+            "value": "dda.dragonringstudio.com",
             "varName": "mServerIP",
             "varType": 2
         },

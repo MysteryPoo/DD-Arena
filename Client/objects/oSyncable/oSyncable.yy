@@ -13,6 +13,16 @@
             "enumb": 0,
             "eventtype": 8,
             "m_owner": "4e057523-ab34-46c1-bca9-69f4141348db"
+        },
+        {
+            "id": "aef9b53c-43fb-4fd1-97a8-f8bb48311a4d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "4e057523-ab34-46c1-bca9-69f4141348db"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -59,6 +69,34 @@
             "value": "0",
             "varName": "mIsAI",
             "varType": 3
+        },
+        {
+            "id": "7e05ef18-1bcf-4465-a76d-8c8290d89676",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "x",
+            "varName": "mNetworkX",
+            "varType": 0
+        },
+        {
+            "id": "d3674247-80dc-4abe-b165-4f42ab807eec",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "y",
+            "varName": "mNetworkY",
+            "varType": 0
         }
     ],
     "solid": false,

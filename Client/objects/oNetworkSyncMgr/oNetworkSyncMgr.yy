@@ -59,12 +59,12 @@
             "listItems": null,
             "multiselect": false,
             "rangeEnabled": true,
-            "rangeMax": 1,
-            "rangeMin": 0,
+            "rangeMax": 30,
+            "rangeMin": 1,
             "resourceFilter": 1023,
-            "value": "0.5",
-            "varName": "mSyncRateInSeconds",
-            "varType": 0
+            "value": "20",
+            "varName": "mSyncRate",
+            "varType": 1
         }
     ],
     "solid": false,

@@ -44,8 +44,8 @@ else
 	{
 		mButtonOnline.mIsEnabled = true;
 	}
-				
-	ds_map_destroy(_response);
-				
+	
 	mIsAuth = true;
 }
+
+ds_map_destroy(_response);

@@ -7,8 +7,8 @@ var _x = _response[?"x"];
 var _y = _response[?"y"];
 
 with (oNetworkSyncMgr.mSyncMap[?_key]) {
-	x = _x;
-	y = _y;
+	mNetworkX = _x;
+	mNetworkY = _y;
 }
 
 ds_map_destroy(_response);

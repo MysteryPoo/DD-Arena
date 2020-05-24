@@ -50,6 +50,6 @@ if(!SendPacket(_ping))
 	mSocketRef = -1;
 	var _warning = instance_create_layer(room_width * 0.5, room_height * 0.5, "PopUp", oWarning);
 	_warning.mMessage = string_upper("Lost connection to matchmaking server.");
-	if(room != rmDemonstration) {room_goto(rmSplash);}
+	_warning.mNavId = rmSplash;
 }
 ds_map_destroy(_paramsMap);

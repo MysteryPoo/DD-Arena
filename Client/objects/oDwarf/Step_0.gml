@@ -1,4 +1,5 @@
 /// @description React to Controller
+event_inherited();
 if (noone != mController && instance_exists(mController))
 {
 	//var facingDir = point_direction(x, y, mController.mPointerX, mController.mPointerY);

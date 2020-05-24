@@ -1,5 +1,5 @@
 /// @description Sync Positions
-alarm[0] = room_speed * mSyncRateInSeconds;
+alarm[0] = mSyncRate;
 
 if (!instance_exists(oGameClient) /*|| !oGameClient.mIsHost*/) exit;
 
