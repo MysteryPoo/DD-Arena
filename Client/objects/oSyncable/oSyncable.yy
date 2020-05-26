@@ -97,6 +97,48 @@
             "value": "y",
             "varName": "mNetworkY",
             "varType": 0
+        },
+        {
+            "id": "b8a92b8e-a491-4457-a0f6-2843ec165926",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": true,
+            "rangeMax": 100,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "100",
+            "varName": "mHitPoints",
+            "varType": 1
+        },
+        {
+            "id": "256ae7c0-12ab-4af9-b593-2399c08a632e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "mHitPoints",
+            "varName": "mMaxHitPoints",
+            "varType": 1
+        },
+        {
+            "id": "7369555e-ae2c-4e96-b1dd-2b3cd2317a82",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "mIsAlive",
+            "varType": 3
         }
     ],
     "solid": false,

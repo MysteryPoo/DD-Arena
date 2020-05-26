@@ -1,9 +1,12 @@
-/// @description React to Controller
+/// @description
+if (!mIsAlive) exit;
 event_inherited();
+
+#region Respond to Controller
 if (noone != mController && instance_exists(mController))
 {
-	//var facingDir = point_direction(x, y, mController.mPointerX, mController.mPointerY);
-	//image_angle = facingDir;
+	var facingDir = point_direction(x, y, mController.mPointerX, mController.mPointerY);
+	image_angle = facingDir;
 	
 	mController.x = x;
 	mController.y = y;
@@ -69,7 +72,9 @@ if (noone != mController && instance_exists(mController))
 	
 	mIsMoving = moving;
 }
+#endregion
 
+#region Pick up Bombs
 var _bombPile = instance_nearest(x, y, oBombPile);
 if (noone != _bombPile)
 {
@@ -79,3 +84,4 @@ if (noone != _bombPile)
 		_bombPile.mOwner = id;
 	}
 }
+#endregion

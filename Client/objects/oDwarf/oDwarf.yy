@@ -201,7 +201,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "oRadialBomb",
+            "value": "oBomb",
             "varName": "mBombType",
             "varType": 6
         }

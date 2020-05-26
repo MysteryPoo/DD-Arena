@@ -6,9 +6,10 @@
     "children": [
         "988ee1db-97b5-4b23-bd02-8d82d4fb3a08",
         "641a7886-f804-4d78-b38f-e949bc8b8f82",
+        "1721f3b3-df72-4c9b-86e2-c570a642edea",
         "693f17bd-b8cc-46d3-8b83-b0907fe91522",
-        "2157fe88-f395-4a71-bf4b-50a8f2a63d33",
-        "84d73fa5-fa01-4ef7-8ee6-2fdc7c7e700b"
+        "84d73fa5-fa01-4ef7-8ee6-2fdc7c7e700b",
+        "2157fe88-f395-4a71-bf4b-50a8f2a63d33"
     ],
     "filterType": "GMScript",
     "folderName": "Deserializers",

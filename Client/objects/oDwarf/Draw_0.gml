@@ -12,20 +12,22 @@ if (mBombCount == 0)
 
 if (mIsMoving)
 {
-	//sprite_index = spr_DwarfWalk;
-	if (hspeed > 0) sprite_index = sBlue_Right;
-	else if (hspeed < 0) sprite_index = sBlue_Left;
-	else if (vspeed < 0) sprite_index = sBlue_Up;
-	else sprite_index = sBlue_Down;
-	image_xscale = 1;
+	sprite_index = spr_DwarfWalk;
+	//if (hspeed > 0) sprite_index = sBlue_Right;
+	//else if (hspeed < 0) sprite_index = sBlue_Left;
+	//else if (vspeed < 0) sprite_index = sBlue_Up;
+	//else sprite_index = sBlue_Down;
+	//image_xscale = 1;
 }
 else
 {
-	//sprite_index = spr_Dwarf_Idle;
-	sprite_index = sBlue_Standing;
-	if (x < mController.mPointerX) image_xscale = 1;
-	else image_xscale = -1;
+	sprite_index = spr_Dwarf_Idle;
+	//sprite_index = sBlue_Standing;
+	//if (x < mController.mPointerX) image_xscale = 1;
+	//else image_xscale = -1;
 }
+image_xscale = 0.5;
+image_yscale = 0.5;
 draw_self();
 
 // Draw range

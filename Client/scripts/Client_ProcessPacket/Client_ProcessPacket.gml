@@ -11,6 +11,9 @@ switch(argument0)
 	case CLIENT_MESSAGE_ID.CONTROLLERDATA:
 		Client_HandleController(argument2);
 		break;
+	case CLIENT_MESSAGE_ID.GAMESTATE:
+		Client_HandleGameState(argument2);
+		break;
 	case CLIENT_MESSAGE_ID.HANDSHAKE:
 		Client_HandleHandshake(argument2);
 		break;

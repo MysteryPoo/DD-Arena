@@ -8,8 +8,9 @@ for (var key = ds_map_find_first(mSyncMap); key != undefined; key = ds_map_find_
 	
 	var _request = ds_map_create();
 	_request[?"key"] = key;
-	_request[?"x"] = _instance.x;
-	_request[?"y"] = _instance.y;
+	_request[?"x"] = max(0, _instance.x);
+	_request[?"y"] = max(0, _instance.y);
+	_request[?"hitPoints"] = max(0, _instance.mHitPoints);
 	
 	var _buffer = Client_SerializeSyncPosition(_request);
 	with(oGameClient)

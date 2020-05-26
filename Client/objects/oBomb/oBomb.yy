@@ -125,6 +125,34 @@
             "value": "0",
             "varName": "mAltitude",
             "varType": 0
+        },
+        {
+            "id": "cdf0fd5c-0663-4cd0-bb4c-f119d5dd4edb",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "-1",
+            "varName": "mBlinkTimer",
+            "varType": 1
+        },
+        {
+            "id": "22aa6de5-7b5c-47a1-9498-5826060911eb",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": true,
+            "rangeMax": 100,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "30",
+            "varName": "mDamage",
+            "varType": 1
         }
     ],
     "solid": false,

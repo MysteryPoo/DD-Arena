@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "1721f3b3-df72-4c9b-86e2-c570a642edea",
+            "Value": {
+                "id": "50ad7a5f-42cf-45c1-8b1e-665abb2aa423",
+                "resourcePath": "scripts\\Client_DeserializeGameState\\Client_DeserializeGameState.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1a434fc0-6f4e-4e49-bece-c259293a2a62",
             "Value": {
                 "id": "0921968a-87a8-4866-912e-d5f41caf2847",
@@ -359,6 +367,14 @@
             }
         },
         {
+            "Key": "6574ce27-86ea-48c1-afeb-692f13d6061f",
+            "Value": {
+                "id": "c09149f4-a563-4931-9a38-bd3eee386e53",
+                "resourcePath": "views\\6574ce27-86ea-48c1-afeb-692f13d6061f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "6686eeea-fd18-4831-b661-eae5e28b7240",
             "Value": {
                 "id": "97309d21-9d69-4e51-83bf-dab56222dd13",
@@ -551,6 +567,14 @@
             }
         },
         {
+            "Key": "91d41f63-a17e-4760-92c3-550dba409896",
+            "Value": {
+                "id": "5ad93fa6-e392-4748-a958-a22dbf138358",
+                "resourcePath": "objects\\oGameState\\oGameState.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "93566aad-c3b3-48a9-8fa7-9c5ee19f74ac",
             "Value": {
                 "id": "951fab0e-53c8-48a2-8d29-a8441d36083f",
@@ -599,6 +623,14 @@
             }
         },
         {
+            "Key": "9d627364-9210-4b0c-9f27-091216063293",
+            "Value": {
+                "id": "e30c0034-f8d0-4c33-8c07-eddf81e192f0",
+                "resourcePath": "sprites\\sCorpse\\sCorpse.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9e86f6d8-7a6a-4fd0-8731-f48628310d57",
             "Value": {
                 "id": "635503fc-1d21-43c7-a605-cabd3aa699e9",
@@ -628,6 +660,14 @@
                 "id": "07655f58-558c-4900-b20a-b90283730d55",
                 "resourcePath": "objects\\oMenuSplash\\oMenuSplash.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a6909e1a-05b5-4828-896d-abce7a010aea",
+            "Value": {
+                "id": "6c3350ef-22d6-45b4-8221-0143645e8ddc",
+                "resourcePath": "scripts\\Client_HandleGameState\\Client_HandleGameState.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -983,6 +1023,14 @@
             }
         },
         {
+            "Key": "fb0a0886-6139-4ebb-bb6d-a29093a3c534",
+            "Value": {
+                "id": "6c7db047-afa1-4cb9-932b-ce6563f45d12",
+                "resourcePath": "objects\\oCorpse\\oCorpse.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fcd3366f-f8bb-49b1-a95a-ef3f55996bf8",
             "Value": {
                 "id": "d4be531a-2db1-4bf2-a860-813148313d45",
@@ -1021,19 +1069,21 @@
         "75c9262c-dff3-47cc-8200-09d2a9040588",
         "f0d1bc38-bf83-4d83-801f-e0e593f7545f",
         "3d5c7527-f65b-4714-8f27-2751e6d3d1f0",
+        "a6909e1a-05b5-4828-896d-abce7a010aea",
         "ad9cd218-a2d8-4948-b543-0a53e68d9c98",
+        "b501f069-c32e-463d-b51c-bc26323aa00e",
         "868a5354-4b5e-4328-ad67-3c9a36310958",
         "fcd3366f-f8bb-49b1-a95a-ef3f55996bf8",
-        "b501f069-c32e-463d-b51c-bc26323aa00e",
         "77e6e1dd-aa4d-43bd-9191-061467958643",
         "fa2274d8-3b7a-4432-82fd-b6aee5311a59",
         "29cdc58a-d55e-4f64-ae22-a002c18b5e42",
         "ad929d60-5a6a-4ff7-99c0-67a94f60cc50",
         "988ee1db-97b5-4b23-bd02-8d82d4fb3a08",
         "641a7886-f804-4d78-b38f-e949bc8b8f82",
+        "1721f3b3-df72-4c9b-86e2-c570a642edea",
         "693f17bd-b8cc-46d3-8b83-b0907fe91522",
-        "2157fe88-f395-4a71-bf4b-50a8f2a63d33",
         "84d73fa5-fa01-4ef7-8ee6-2fdc7c7e700b",
+        "2157fe88-f395-4a71-bf4b-50a8f2a63d33",
         "93826068-e502-46d2-b7c0-7b8168996435",
         "9cedc71b-bb18-4153-9e84-fd805d9d9037",
         "55876d08-6a8e-4757-99a1-f87f38a81636"
