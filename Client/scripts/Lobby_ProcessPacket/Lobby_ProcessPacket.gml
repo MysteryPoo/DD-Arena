@@ -14,42 +14,10 @@ switch(argument0)
 	case LOBBY.PING:
 		Lobby_HandlePing(argument2);
 		break;
-	/*case LOBBY.STARTGAME:
-	show_debug_message("STARTGAME");
-		var _response = Lobby_DeserializeStartGame(argument2);
-				
-		var _success = false;
-		if(_response[?"port"] == 0 && _response[?"token"] == 0)
-		{
-			var _error = _response[?"domain"];
-			with(mLobbyList)
-				mError = _error;
-			oDashboardMenu.alarm[0] = room_speed;
-		}
-		else
-		{
-			var domain = _response[?"domain"];
-			if(domain == "localhost")
-			{
-				oGameSettings.mIP = domain;
-			}
-			else
-			{
-				oGameSettings.mIP = "localhost";//domain + ".dragonringstudio.com";
-				//oGameSettings.mIP = "farkle-login.dragonringstudio.com";
-			}
-			oGameSettings.mPort = _response[?"port"];
-			oGameSettings.mToken = _response[?"token"];
-			show_debug_message("domain: " + domain);
-			show_debug_message("port: " + string(_response[?"port"]));
-			_success = true;
-		}
-				
-		ds_map_destroy(_response);
-				
-		if(_success) room_goto(rm_Game);
+	case LOBBY.STARTGAME:
+		Lobby_HandleStartGame(argument2);
 		break;
-	case LOBBY.FRIENDINFO:
+	/*case LOBBY.FRIENDINFO:
 	show_debug_message("FRIENDINFO");
 		var _friendInfo = Lobby_DeserializeFriendInfo(argument2);
 		with(mFriendList)

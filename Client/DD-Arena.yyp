@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "005bd8ae-48dc-43d8-9d56-8f6d1a7d9da8",
+            "Value": {
+                "id": "af99d0fd-ed56-43c3-a9a6-4bd4f2188e63",
+                "resourcePath": "scripts\\Lobby_HandleStartGame\\Lobby_HandleStartGame.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0142af67-e50e-4580-a280-1aead20672c4",
             "Value": {
                 "id": "915b7ce8-9aeb-47f9-ad3f-ea7990143584",
@@ -116,6 +124,14 @@
                 "id": "f7108378-970c-41ec-862d-ea1a3755849d",
                 "resourcePath": "views\\1451e4fb-2c16-4572-a3f8-506148459edb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "14ebf728-370d-42f6-93d4-c19567d9abe3",
+            "Value": {
+                "id": "5077d5b1-da64-477e-bd9c-dfa7a98630d3",
+                "resourcePath": "scripts\\Lobby_DeserializeLobbyPlayer\\Lobby_DeserializeLobbyPlayer.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -319,11 +335,35 @@
             }
         },
         {
+            "Key": "5960a369-9eb0-40bf-846d-5aba1b0568a3",
+            "Value": {
+                "id": "8532f4a5-7067-4ea7-9e51-e9f7ad3da7d9",
+                "resourcePath": "scripts\\Lobby_SerializeLobbyData\\Lobby_SerializeLobbyData.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5b0edbfa-4c6e-4be9-85b8-ca65ac6916e0",
             "Value": {
                 "id": "31371a53-53e2-4d74-af45-4f7d2b2a1741",
                 "resourcePath": "sprites\\sBlue_Standing\\sBlue_Standing.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5c025c69-81f0-4901-b92d-650349333f3f",
+            "Value": {
+                "id": "9b158896-05cc-4a97-b6c1-084e082e8fa6",
+                "resourcePath": "scripts\\Lobby_DeserializeJoinLobby\\Lobby_DeserializeJoinLobby.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5d37055d-3f99-4b9d-869c-ca841c4b3562",
+            "Value": {
+                "id": "747e2964-4396-4dac-83d8-6bf4cf1b7c7c",
+                "resourcePath": "objects\\oGameSettings\\oGameSettings.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -375,10 +415,26 @@
             }
         },
         {
+            "Key": "659dfb0a-63c0-494d-8fce-9c8672db72d1",
+            "Value": {
+                "id": "2ba296b1-1b19-4ef5-922d-b3ba3f3558dd",
+                "resourcePath": "scripts\\Lobby_SerializeStartGame\\Lobby_SerializeStartGame.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6686eeea-fd18-4831-b661-eae5e28b7240",
             "Value": {
                 "id": "97309d21-9d69-4e51-83bf-dab56222dd13",
                 "resourcePath": "scripts\\SendPacket\\SendPacket.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6832d9cd-8ee3-45c7-aab8-45eb3eb1814b",
+            "Value": {
+                "id": "28537239-ae88-44d6-9f23-c14a96c1b32a",
+                "resourcePath": "scripts\\Lobby_SerializeNewLobby\\Lobby_SerializeNewLobby.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -431,6 +487,14 @@
             }
         },
         {
+            "Key": "74084054-28ca-4fcb-a399-30f4276eae90",
+            "Value": {
+                "id": "fc47cd61-4f47-4e06-b1a4-ea6e78676826",
+                "resourcePath": "scripts\\Lobby_SerializeLobbyPlayer\\Lobby_SerializeLobbyPlayer.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
             "Value": {
                 "id": "f32e2b00-576a-440e-be74-e7a60078f368",
@@ -460,6 +524,14 @@
                 "id": "a7133128-3dab-4ea4-857d-5d44521845e8",
                 "resourcePath": "sprites\\spr_Bomb\\spr_Bomb.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "768be7f2-9eae-4a34-820f-7c733d3007ce",
+            "Value": {
+                "id": "47b8768b-9b2d-4e33-aa0f-9192009941e5",
+                "resourcePath": "scripts\\Lobby_DeserializeStartGame\\Lobby_DeserializeStartGame.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1060,12 +1132,20 @@
         "7937d72e-0fa8-4ed4-9dab-ead5393ab62f",
         "bbef8b63-d113-4a3f-895c-64fab32ec695",
         "e092a538-480a-4519-8efe-9d7a10631bbc",
+        "005bd8ae-48dc-43d8-9d56-8f6d1a7d9da8",
         "6ffdb42d-8ce0-4b2a-8386-39dd3fac27ef",
         "6399762d-d6cd-480e-87d2-29af0ae9cb24",
         "c7ada5d8-21b3-4ef6-915c-591ab9f31de7",
+        "6832d9cd-8ee3-45c7-aab8-45eb3eb1814b",
+        "5960a369-9eb0-40bf-846d-5aba1b0568a3",
+        "659dfb0a-63c0-494d-8fce-9c8672db72d1",
+        "74084054-28ca-4fcb-a399-30f4276eae90",
         "419d5d9f-6d3d-45f1-aeb0-0dec50a82067",
         "ceaedcb8-33f8-4171-90b5-17bf0c112d1b",
         "7989c8c2-c622-49a5-9774-cc560c302357",
+        "5c025c69-81f0-4901-b92d-650349333f3f",
+        "768be7f2-9eae-4a34-820f-7c733d3007ce",
+        "14ebf728-370d-42f6-93d4-c19567d9abe3",
         "75c9262c-dff3-47cc-8200-09d2a9040588",
         "f0d1bc38-bf83-4d83-801f-e0e593f7545f",
         "3d5c7527-f65b-4714-8f27-2751e6d3d1f0",

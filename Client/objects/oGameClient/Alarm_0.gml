@@ -4,13 +4,13 @@ alarm[0] = room_speed;
 
 if(!mIsConnected)
 {
-	/*if(instance_exists(oGameSettings))
+	if(instance_exists(oGameSettings))
 	{
 		mServerIP = oGameSettings.mIP;
 		mServerPort = oGameSettings.mPort;
 		mToken = oGameSettings.mToken;
-		//instance_destroy(oGameSettings);
-	}*/
+		instance_destroy(oGameSettings);
+	}
 	mSocketRef = network_create_socket(network_socket_tcp);
 	network_set_config(network_config_use_non_blocking_socket, 1);
 	if(network_connect_raw(mSocketRef, mServerIP, mServerPort) > -1)
