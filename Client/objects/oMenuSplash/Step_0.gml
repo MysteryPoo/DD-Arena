@@ -26,6 +26,6 @@ if(noone != mButtonOnline && mButtonOnline.mIsReleased)
 	ds_map_destroy(_request);
 	buffer_delete(_buffer);
 	
-	alarm[0] = 10;
+	alarm[0] = room_speed;
 	
 }

@@ -5,7 +5,7 @@ mFuse -= 1;
 if (mFuse <= 0)
 {
 	var _damagedList = ds_list_create();
-	var _damagedCount = collision_circle_list(x, y, 128, oSyncable, false, true, _damagedList, false);
+	var _damagedCount = collision_circle_list(x, y, 64, oSyncable, false, true, _damagedList, false);
 	for (var d = 0; d < _damagedCount; ++d) {
 		var _damaged = _damagedList[|d];
 		if (_damaged.mIsAlive) {
@@ -13,6 +13,15 @@ if (mFuse <= 0)
 		}
 	}
 	ds_list_destroy(_damagedList);
+	
+	var _otherBombs = ds_list_create();
+	var _bombCount = collision_circle_list(x, y, 64, oBomb, false, true, _otherBombs, false);
+	for (var b = 0; b < _bombCount; ++b) {
+		var _bomb = _otherBombs[|b];
+		_bomb.mFuse -= 100;
+	}
+	ds_list_destroy(_otherBombs);
+	
 	instance_create_layer(x, y, "Instances", obj_explosion_1);
 	instance_destroy();
 }
