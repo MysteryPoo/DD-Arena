@@ -10,7 +10,7 @@ var _hitPoints = _response[?"hitPoints"];
 with (oNetworkSyncMgr.mSyncMap[?_key]) {
 	mNetworkX = _x;
 	mNetworkY = _y;
-	mHitPoints = _hitPoints;
+	mHitPoints = min(mHitPoints, _hitPoints);
 }
 
 ds_map_destroy(_response);
