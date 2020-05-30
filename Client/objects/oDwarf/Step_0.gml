@@ -68,7 +68,7 @@ if (noone != mController && instance_exists(mController))
 	if (mController.mIsDown) {yVector += 1; moving = true;}
 	
 	direction = point_direction(x, y, xVector, yVector);
-	speed = moving ? 5 : 0;
+	speed = moving ? mMaxSpeed : 0;
 	
 	mIsMoving = moving;
 }

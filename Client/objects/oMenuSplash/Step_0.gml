@@ -6,8 +6,8 @@ if(noone != mButtonOnline && mButtonOnline.mIsReleased)
 	mButtonOnline.mIsFading = true;
 	//room_goto(rmOnline);
 	var _request = ds_map_create();
-	_request[?"isPublic"] = true;
-	_request[?"numPlayers"] = 2;
+	_request[?"isPublic"] = false;
+	_request[?"numPlayers"] = 4;
 	
 	var _buffer = Lobby_SerializeNewLobby(_request);
 	with (oLobbyClient) SendPacket(_buffer);

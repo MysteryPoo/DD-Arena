@@ -204,6 +204,20 @@
             "value": "oBomb",
             "varName": "mBombType",
             "varType": 6
+        },
+        {
+            "id": "8cedb955-7e48-4527-8d03-3d74a369deac",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": true,
+            "rangeMax": 5,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "2.5",
+            "varName": "mMaxSpeed",
+            "varType": 0
         }
     ],
     "solid": false,
