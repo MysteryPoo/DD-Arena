@@ -215,7 +215,7 @@
             "rangeMax": 5,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "2.5",
+            "value": "4",
             "varName": "mMaxSpeed",
             "varType": 0
         }
