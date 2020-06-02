@@ -43,16 +43,6 @@
             "enumb": 1,
             "eventtype": 2,
             "m_owner": "6f475977-3851-4443-b03a-9631528b6e22"
-        },
-        {
-            "id": "9de4499a-2d27-462c-9524-63c06885d031",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "6f475977-3851-4443-b03a-9631528b6e22"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -101,20 +91,6 @@
             "varType": 1
         },
         {
-            "id": "5b8e1c54-0b4c-4f6c-bb37-c29148e5fcbf",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "mIsMoving",
-            "varType": 3
-        },
-        {
             "id": "718bdad0-dd26-4644-ab67-0dff4655ee5c",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -152,7 +128,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "256",
+            "value": "128",
             "varName": "mThrowRange",
             "varType": 1
         },
@@ -231,6 +207,6 @@
         }
     ],
     "solid": false,
-    "spriteId": "704ae449-654f-484b-911c-3bc87e540320",
+    "spriteId": "e3f528e0-283d-4c9e-b92c-3b08ecebbf07",
     "visible": true
 }

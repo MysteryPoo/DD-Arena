@@ -34,7 +34,7 @@ if (mMovementTimer-- == 0)
 }
 else
 {
-	mAltitude = max(0, mAltitude - 1);
+	mAltitude = max(0, mAltitude - 1.8);
 	if (mAltitude == 0 && speed > 0)
 	{
 		var _delta = hspeed > 0 ? -15 : 15;

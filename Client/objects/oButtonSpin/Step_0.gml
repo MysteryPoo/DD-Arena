@@ -1,7 +1,7 @@
 /// @description 
 event_inherited();
 
-if(!mIsReady)
+if(!mIsReady && !mIsFading)
 {
 	image_angle = 360 * dsin(mTimer);
 	mTimer += 5;
@@ -19,6 +19,7 @@ if(mIsReady && mIsFading)
 	mTimer -= 5;
 	if(mTimer <= 0)
 	{
-		mIsEnabled = false;
+		mIsReady = false;
+		visible = false;
 	}
 }

@@ -5,8 +5,8 @@ event_inherited();
 #region Respond to Controller
 if (noone != mController && instance_exists(mController))
 {
-	var facingDir = point_direction(x, y, mController.mPointerX, mController.mPointerY);
-	image_angle = facingDir;
+	//var facingDir = point_direction(x, y, mController.mPointerX, mController.mPointerY);
+	//image_angle = facingDir;
 	
 	mController.x = x;
 	mController.y = y;
@@ -18,7 +18,7 @@ if (noone != mController && instance_exists(mController))
 		mBomb.mAltitude = 32;
 		if (!mController.mIsPrimaryAction)
 		{
-			var distance = min(point_distance(x, y, mController.mPointerX, mController.mPointerY), mThrowRange);
+			var distance = mThrowRange;//min(point_distance(x, y, mController.mPointerX, mController.mPointerY), mThrowRange);
 			var angle = point_direction(x, y, mController.mPointerX, mController.mPointerY);
 			var _x = x + lengthdir_x(distance, angle);
 			var _y = y + lengthdir_y(distance, angle);
@@ -70,7 +70,19 @@ if (noone != mController && instance_exists(mController))
 	direction = point_direction(x, y, xVector, yVector);
 	speed = moving ? mMaxSpeed : 0;
 	
-	mIsMoving = moving;
+	if (moving) {
+		if (hspeed != 0 ) {
+			sprite_index = sBlue_Right;
+		} else if (vspeed > 0) {
+			sprite_index = sBlue_Down;
+		} else {
+			sprite_index = sBlue_Up;
+		}
+		image_xscale = hspeed > 0 ? 1 : -1;
+	} else {
+		sprite_index = sBlue_Standing;
+		image_xscale = mController.mPointerX > x ? 1 : -1;
+	}
 }
 #endregion
 

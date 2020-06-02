@@ -47,7 +47,7 @@
     ],
     "gridX": 0,
     "gridY": 0,
-    "height": 128,
+    "height": 33,
     "layers": [
         {
             "id": "42d406f6-6799-47f6-80fd-e64919653ec9",
@@ -57,7 +57,7 @@
             "blendMode": 0,
             "isLocked": false,
             "name": "Outline",
-            "opacity": 70,
+            "opacity": 75,
             "visible": true
         },
         {
@@ -82,7 +82,7 @@
     "swfPrecision": 2.525,
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
-    "width": 124,
-    "xorig": 63,
-    "yorig": 56
+    "width": 32,
+    "xorig": 16,
+    "yorig": 14
 }

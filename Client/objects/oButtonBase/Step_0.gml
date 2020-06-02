@@ -1,6 +1,6 @@
 /// @description oBaseButton->Step
 
-if(!mIsEnabled || mIsPressed)
+if(!mIsEnabled || mIsPressed || !mIsReady)
 {
 	image_blend = c_gray;
 }
