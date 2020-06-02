@@ -13,7 +13,7 @@ if(_response[?"port"] == 0 && _response[?"token"] == 0)
 else
 {
 	if (!instance_exists(oGameSettings)) {
-		show_debug_message("Some went wrong. Missing oGameSettings.");
+		show_debug_message("Something went wrong. Missing oGameSettings.");
 		instance_create_layer(0, 0, "Instances", oGameSettings);
 	}
 	oGameSettings.mIP = _response[?"domain"];

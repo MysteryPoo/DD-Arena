@@ -10,7 +10,8 @@
         "6832d9cd-8ee3-45c7-aab8-45eb3eb1814b",
         "5960a369-9eb0-40bf-846d-5aba1b0568a3",
         "659dfb0a-63c0-494d-8fce-9c8672db72d1",
-        "74084054-28ca-4fcb-a399-30f4276eae90"
+        "74084054-28ca-4fcb-a399-30f4276eae90",
+        "69109a30-d3aa-4905-8e6f-3577f05be1d5"
     ],
     "filterType": "GMScript",
     "folderName": "Serializers",

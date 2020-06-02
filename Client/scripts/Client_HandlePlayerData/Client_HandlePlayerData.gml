@@ -26,7 +26,7 @@ _player[?"controllerKey"] = _controllerKey;
 _player[?"instance"] = GetInstance(_playerKey);
 _player[?"controller"] = GetController(_controllerKey);
 
-_instance.mName = _player[?"name"];
+_instance.mPlayerCacheRef.mId = _response[?"id"];
 
 if (_player[?"isMine"]) {
 	oInput.mControllerKey = _controllerKey;

@@ -4,9 +4,10 @@ if(noone != mButtonOnline && mButtonOnline.mIsReleased)
 {
 	mButtonOnline.mIsReleased = false;
 	mButtonOnline.mIsFading = true;
+	mButtonOnline.mIsEnabled = false;
 	//room_goto(rmOnline);
 	var _request = ds_map_create();
-	_request[?"isPublic"] = false;
+	_request[?"isPublic"] = true;
 	_request[?"numPlayers"] = 2;
 	
 	var _buffer = Lobby_SerializeNewLobby(_request);

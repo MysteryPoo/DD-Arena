@@ -11,6 +11,9 @@ switch(argument0)
 	case LOBBY.HANDSHAKE:
 		Lobby_HandleHandshake(argument2);
 		break;
+	case LOBBY.GETPUBLICPLAYERINFO:
+		Lobby_HandleGetPublicPlayerInfo(argument2);
+		break;
 	case LOBBY.PING:
 		Lobby_HandlePing(argument2);
 		break;

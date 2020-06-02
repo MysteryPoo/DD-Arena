@@ -23,6 +23,26 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "4e057523-ab34-46c1-bca9-69f4141348db"
+        },
+        {
+            "id": "e8718cf9-af93-4a38-ab1c-eb44c37c9ca1",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "4e057523-ab34-46c1-bca9-69f4141348db"
+        },
+        {
+            "id": "eae21736-b8af-47f6-9828-1df2d6b78073",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 1,
+            "m_owner": "4e057523-ab34-46c1-bca9-69f4141348db"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -42,20 +62,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
-        {
-            "id": "12fb78f9-152d-417c-b778-3ec336413f7b",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "\"\"",
-            "varName": "mName",
-            "varType": 2
-        },
         {
             "id": "a1ce3015-35f2-4f56-a00c-c0655703f0b3",
             "modelName": "GMObjectProperty",
@@ -139,6 +145,20 @@
             "value": "True",
             "varName": "mIsAlive",
             "varType": 3
+        },
+        {
+            "id": "d981764c-2dcf-4105-8b2c-9f871c88f97c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 256,
+            "value": "noone",
+            "varName": "mPlayerCacheRef",
+            "varType": 1
         }
     ],
     "solid": false,

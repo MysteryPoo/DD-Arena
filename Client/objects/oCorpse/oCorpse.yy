@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "oCorpse",
     "eventList": [
-        
+        {
+            "id": "1804fd19-c9b0-4d57-a369-b494dbd641dc",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "fb0a0886-6139-4ebb-bb6d-a29093a3c534"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
