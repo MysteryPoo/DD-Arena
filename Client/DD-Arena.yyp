@@ -727,6 +727,14 @@
             }
         },
         {
+            "Key": "97c9b1b3-09c8-4a1a-b583-3b8845801739",
+            "Value": {
+                "id": "42f526a6-080e-476b-bad1-0c4787f8268e",
+                "resourcePath": "objects\\oCollision\\oCollision.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "988ee1db-97b5-4b23-bd02-8d82d4fb3a08",
             "Value": {
                 "id": "d50950a7-500d-465e-87ea-2d5c0c07b9cb",
@@ -1004,6 +1012,14 @@
                 "id": "5ad84502-7c28-43c9-bcb2-a0e3eacedcd7",
                 "resourcePath": "objects\\oButtonFade\\oButtonFade.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "cd8e5093-c265-4b28-ac76-dfffe1e4100b",
+            "Value": {
+                "id": "7c9b288e-f8e4-494e-9ee8-5a5e7f4fc34d",
+                "resourcePath": "sprites\\sInvisible\\sInvisible.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

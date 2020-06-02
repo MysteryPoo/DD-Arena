@@ -62,7 +62,7 @@
             "rangeMax": 30,
             "rangeMin": 1,
             "resourceFilter": 1023,
-            "value": "20",
+            "value": "1",
             "varName": "mSyncRate",
             "varType": 1
         }

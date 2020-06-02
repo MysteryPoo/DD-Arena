@@ -61,6 +61,19 @@ if (mBlinkTimer < 0 && _fusePercent < 50) {
 }
 #endregion
 
+#region Collision
+if(place_meeting(x + hspeed, y, oCollision)) {
+	//while(!place_meeting(x + sign(hspeed), y, oCollision)){ x += sign(hspeed) };
+	//hspeed = 0;
+	hspeed *= -0.5;
+}
+if(place_meeting(x, y + vspeed, oCollision)) {
+	//while(!place_meeting(x, y + sign(vspeed), oCollision)){ y += sign(vspeed) };
+	//vspeed = 0;
+	vspeed *= -0.5;
+}
+#endregion
+
 var collisionCheck = collision_circle(x, y, 8, oBomb, false, true);
 if (noone != collisionCheck)
 {

@@ -66,7 +66,7 @@
             "rangeMax": 30,
             "rangeMin": 1,
             "resourceFilter": 1023,
-            "value": "3",
+            "value": "1",
             "varName": "mRate",
             "varType": 1
         }

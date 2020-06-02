@@ -1,6 +1,5 @@
 /// @description
 if (!mIsAlive) exit;
-event_inherited();
 
 #region Respond to Controller
 if (noone != mController && instance_exists(mController))
@@ -70,12 +69,21 @@ if (noone != mController && instance_exists(mController))
 	direction = point_direction(x, y, xVector, yVector);
 	speed = moving ? mMaxSpeed : 0;
 	
+	if(place_meeting(x + hspeed, y, oCollision)) {
+		while(!place_meeting(x + sign(hspeed), y, oCollision)){ x += sign(hspeed) };
+		hspeed = 0;
+	}
+	if(place_meeting(x, y + vspeed, oCollision)) {
+		while(!place_meeting(x, y + sign(vspeed), oCollision)){ y += sign(vspeed) };
+		vspeed = 0;
+	}
+	
 	if (moving) {
 		if (hspeed != 0 ) {
 			sprite_index = sBlue_Right;
 		} else if (vspeed > 0) {
 			sprite_index = sBlue_Down;
-		} else {
+		} else if (vspeed < 0) {
 			sprite_index = sBlue_Up;
 		}
 		image_xscale = hspeed > 0 ? 1 : -1;
@@ -97,3 +105,5 @@ if (noone != _bombPile)
 	}
 }
 #endregion
+
+event_inherited();
