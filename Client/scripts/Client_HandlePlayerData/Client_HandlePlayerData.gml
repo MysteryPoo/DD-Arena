@@ -19,7 +19,7 @@ var _instance = GetInstance(_playerKey);
 _instance.mController = GetController(_controllerKey);
 
 _player[?"id"] = _response[?"id"];
-_player[?"name"] = _response[?"name"];
+_player[?"name"] = _response[?"name"]; // This is deprecated
 _player[?"isAI"] = _response[?"isAI"];
 _player[?"isMine"] = _response[?"isMine"];
 _player[?"controllerKey"] = _controllerKey;
@@ -27,6 +27,7 @@ _player[?"instance"] = GetInstance(_playerKey);
 _player[?"controller"] = GetController(_controllerKey);
 
 _instance.mPlayerCacheRef.mId = _response[?"id"];
+_instance.mAvatarCacheRef.mId = _response[?"id"];
 
 if (_player[?"isMine"]) {
 	oInput.mControllerKey = _controllerKey;

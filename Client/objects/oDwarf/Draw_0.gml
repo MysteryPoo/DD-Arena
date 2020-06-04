@@ -14,7 +14,7 @@ draw_self();
 // Draw range
 if (noone != mBomb && instance_exists(mBomb))
 {
-	var distance = min(point_distance(x, y, mController.mPointerX, mController.mPointerY), mThrowRange);
+	var distance = mThrowRange;//min(point_distance(x, y, mController.mPointerX, mController.mPointerY), mThrowRange);
 	var angle = point_direction(x, y, mController.mPointerX, mController.mPointerY);
 	var _x = x + lengthdir_x(distance, angle);
 	var _y = y + lengthdir_y(distance, angle);
