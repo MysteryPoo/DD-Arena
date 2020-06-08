@@ -15,7 +15,7 @@ if (noone != mController && instance_exists(mController))
 	if (noone != mBomb && instance_exists(mBomb))
 	{
 		mBomb.x = x;
-		mBomb.y = y;
+		mBomb.y = y - 5;
 		mBomb.mAltitude = 32;
 		if (!mController.mIsPrimaryAction)
 		{
@@ -110,7 +110,7 @@ var _bombPile = instance_nearest(x, y, oBombPile);
 if (noone != _bombPile)
 {
 	var _distance = point_distance(x, y, _bombPile.x, _bombPile.y);
-	if (_distance < 128 && _bombPile.mOwner == noone)
+	if (_distance < 64 && _bombPile.mOwner == noone)
 	{
 		_bombPile.mOwner = id;
 	}

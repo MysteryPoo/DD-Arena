@@ -1,7 +1,7 @@
 /// @description Send Input
 alarm[0] = mRate;
 
-if (rmOnline == room && mControllerKey >= 0)
+if (mControllerKey >= 0)
 {
 	with(oGameClient)
 	{

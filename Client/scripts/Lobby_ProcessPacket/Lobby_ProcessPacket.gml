@@ -20,6 +20,12 @@ switch(argument0)
 	case LOBBY.STARTGAME:
 		Lobby_HandleStartGame(argument2);
 		break;
+	case LOBBY.LOBBYDATA:
+		Lobby_HandleLobbyData(argument2);
+		break;
+	case LOBBY.LOBBYPLAYER:
+		Lobby_HandleLobbyPlayer(argument2);
+		break;
 	/*case LOBBY.FRIENDINFO:
 	show_debug_message("FRIENDINFO");
 		var _friendInfo = Lobby_DeserializeFriendInfo(argument2);

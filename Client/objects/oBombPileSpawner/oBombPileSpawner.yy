@@ -65,6 +65,20 @@
             "value": "noone",
             "varName": "mBombPile",
             "varType": 1
+        },
+        {
+            "id": "6105c2e9-d72c-4be3-b9f3-6da5b753a4a9",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": true,
+            "rangeMax": 10,
+            "rangeMin": 1,
+            "resourceFilter": 1023,
+            "value": "5",
+            "varName": "mBombCount",
+            "varType": 1
         }
     ],
     "solid": false,

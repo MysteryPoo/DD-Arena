@@ -10,7 +10,8 @@
         "5c025c69-81f0-4901-b92d-650349333f3f",
         "768be7f2-9eae-4a34-820f-7c733d3007ce",
         "14ebf728-370d-42f6-93d4-c19567d9abe3",
-        "30cbeeb8-7e4e-4934-80bd-bc0c76305564"
+        "30cbeeb8-7e4e-4934-80bd-bc0c76305564",
+        "50e3017a-6b95-4ce2-aa63-e67666cdcd2c"
     ],
     "filterType": "GMScript",
     "folderName": "Deserializers",

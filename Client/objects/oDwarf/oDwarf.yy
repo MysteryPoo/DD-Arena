@@ -156,7 +156,7 @@
             "rangeMax": 3,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0.7",
+            "value": "0.4",
             "varName": "mCanThrowCooldown",
             "varType": 0
         },
@@ -170,7 +170,7 @@
             "rangeMax": 5,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
+            "value": "0",
             "varName": "mBombCount",
             "varType": 1
         },
@@ -201,7 +201,7 @@
             "rangeMax": 5,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "4",
+            "value": "3",
             "varName": "mMaxSpeed",
             "varType": 0
         }

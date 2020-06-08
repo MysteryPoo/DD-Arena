@@ -9,6 +9,7 @@ if(_response[?"port"] == 0 && _response[?"token"] == 0)
 	var _error = _response[?"domain"];
 	with(mLobbyListRef)
 		mError = _error;
+	oMenuSplash.mTextError.mText = _error;
 }
 else
 {
@@ -26,4 +27,4 @@ else
 				
 ds_map_destroy(_response);
 				
-if(_success) room_goto(rmOnline);
+if(_success) room_goto(rm1v1);
