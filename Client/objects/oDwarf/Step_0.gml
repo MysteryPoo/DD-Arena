@@ -1,4 +1,5 @@
 /// @description
+event_inherited();
 if (!mIsAlive) exit;
 
 #region Respond to Controller
@@ -10,6 +11,7 @@ if (noone != mController && instance_exists(mController))
 	mController.x = x;
 	mController.y = y;
 	
+	#region Throw Bomb
 	if (noone != mBomb && instance_exists(mBomb))
 	{
 		mBomb.x = x;
@@ -44,7 +46,9 @@ if (noone != mController && instance_exists(mController))
 			mBomb = noone;
 		}
 	}
+	#endregion
 	
+	#region Deflect Bomb
 	if (mCanDeflect && mController.mIsSecondaryAction)
 	{
 		var otherBomb = collision_circle(x, y, 16, oBomb, false, false);
@@ -57,7 +61,9 @@ if (noone != mController && instance_exists(mController))
 			alarm[0] = mDeflectCooldown * room_speed;
 		}
 	}
+	#endregion
 	
+	#region Movement
 	var xVector = x;
 	var yVector = y;
 	var moving = false;
@@ -68,7 +74,9 @@ if (noone != mController && instance_exists(mController))
 	
 	direction = point_direction(x, y, xVector, yVector);
 	speed = moving ? mMaxSpeed : 0;
+	#endregion
 	
+	#region Collision
 	if(place_meeting(x + hspeed, y, oCollision)) {
 		while(!place_meeting(x + sign(hspeed), y, oCollision)){ x += sign(hspeed) };
 		hspeed = 0;
@@ -77,7 +85,9 @@ if (noone != mController && instance_exists(mController))
 		while(!place_meeting(x, y + sign(vspeed), oCollision)){ y += sign(vspeed) };
 		vspeed = 0;
 	}
+	#endregion
 	
+	#region Animation
 	if (moving) {
 		if (hspeed != 0 ) {
 			sprite_index = sBlue_Right;
@@ -91,6 +101,7 @@ if (noone != mController && instance_exists(mController))
 		sprite_index = sBlue_Standing;
 		image_xscale = mController.mPointerX > x ? 1 : -1;
 	}
+	#endregion
 }
 #endregion
 
@@ -105,5 +116,3 @@ if (noone != _bombPile)
 	}
 }
 #endregion
-
-event_inherited();
